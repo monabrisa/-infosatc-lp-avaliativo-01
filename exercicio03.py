@@ -1,0 +1,6 @@
+largura = float(input("Digite a largura da parede a ser pintada em metros:"))
+altura = float(input("Digite a altura da parede a ser pintada em metros: "))
+litros = float((largura*altura)/2)
+latas = float(litros/3.6)
+tinta = float(latas*107.00)
+print ("Será necessário {} litros de tinta para pintar essa parede.\n Portanto você precisará comprar {} latas de tinta, que dará R${}".format(litros, latas, tinta))
